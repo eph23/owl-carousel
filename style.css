@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-heading-cursive {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  color: #c8a97e;
+}
+.hero-heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+
+.section-hero {
+  height: 100vh;
+}
+
+.section-hero__carousel-container {
+  overflow: hidden;
+}
+.carousel-card {
+  height: 100vh;
+}
+
+.carousel-card--one {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./assets/img/bg_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.carousel-card--two {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./assets/img/bg_2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.carousel-card--three {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./assets/img/bg_3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.carousel-card__text-container {
+  height: 100vh;
+}
